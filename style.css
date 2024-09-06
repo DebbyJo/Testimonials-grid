@@ -1,0 +1,32 @@
+.grid__container {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr ;
+    grid-template-rows: auto 3fr auto;
+  gap: 2rem;
+  
+}
+
+.text__pack1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.text__pack2 {
+    grid-column: 3;
+    grid-column-end: 2;
+    grid-row: 4/-3;
+    }
+
+   
+ .text__pack4 {
+    grid-column: 3;
+    grid-column-end: 2;
+    grid-row: 4/-2;
+}
+            
+
+.text__pack5 {
+     grid-column: 3;
+     grid-column-end: 3;
+     grid-row: 4/-3;
+}
